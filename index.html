@@ -3,169 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>42 Degrees Omaha | Premier Cannabis, THC & CBD Destination</title>
+    <title>42 Degrees VIP | Omaha Wright & Elkhorn Cannabis Excellence</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
     <style>
-        :root { --accent-gold: #d4af37; --deep-black: #111111; --off-white: #f8f8f8; }
-        body { font-family: 'Source Sans Pro', sans-serif; background-color: var(--off-white); color: #333; line-height: 1.8; scroll-behavior: smooth; }
-        h1, h2, h3, h4 { font-family: 'Oswald', sans-serif; text-transform: uppercase; letter-spacing: 2px; }
-        .kw-link { color: inherit; text-decoration: none; border-bottom: 2px solid var(--accent-gold); transition: 0.3s; font-weight: 700; }
-        .kw-link:hover { background: var(--accent-gold); color: white; }
-        .hero-industrial { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://42degrees.com/wp-content/uploads/2022/08/42-Degrees-Bellevue-NE-Exterior-1.jpg'); background-size: cover; background-position: center; }
+        :root { --gold: #d4af37; --dark-bg: #050505; --card-bg: #0f0f0f; }
+        body { font-family: 'Montserrat', sans-serif; background-color: var(--dark-bg); color: #d1d1d1; line-height: 1.8; scroll-behavior: smooth; }
+        h1, h2, h3, h4 { font-family: 'Cinzel', serif; letter-spacing: 0.1em; }
+        .kw-link { color: var(--gold); text-decoration: none; border-bottom: 1px solid rgba(212, 175, 55, 0.3); transition: 0.4s; font-weight: 600; }
+        .kw-link:hover { color: #fff; border-bottom-color: var(--gold); background: rgba(212, 175, 55, 0.1); }
+        .vip-hero { background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url('https://42degrees.com/wp-content/uploads/2021/10/5023-Center-Street-Omaha-NE-Storefront-1.webp'); background-size: cover; background-position: center; attachment: fixed; }
+        .gold-border { border: 1px solid rgba(212, 175, 55, 0.2); }
+        .gold-text { background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
         .text-justify { text-align: justify; }
-        .cap-drop::first-letter { font-size: 5rem; float: left; margin-right: 15px; color: var(--accent-gold); line-height: 1; font-family: 'Oswald'; font-weight: 700; }
-        .vertical-text { writing-mode: vertical-rl; text-orientation: mixed; }
+        .cap-drop::first-letter { font-size: 5rem; float: left; margin-right: 15px; color: var(--gold); line-height: 0.7; font-family: 'Cinzel'; font-weight: 700; }
+        .nav-blur { background: rgba(5, 5, 5, 0.9); backdrop-filter: blur(15px); }
     </style>
 </head>
 <body>
 
-    <nav class="fixed w-full z-50 bg-black py-4 px-10 flex justify-between items-center border-b border-gold/30">
+    <nav class="fixed w-full z-50 nav-blur border-b border-white/5 py-6 px-12 flex justify-between items-center">
         <a href="https://42degrees.com/">
-            <img src="https://42degrees.com/wp-content/uploads/2020/08/42-degrees-logo-plain.svg" alt="42 Degrees" class="h-10 brightness-0 invert">
+            <img src="https://42degrees.com/wp-content/uploads/2020/08/42-degrees-logo-plain.svg" alt="42 Degrees Logo" class="h-8 md:h-12 brightness-0 invert">
         </a>
-        <div class="hidden lg:flex space-x-10 text-[11px] font-bold uppercase tracking-widest text-gray-400">
-            <a href="#about" class="hover:text-amber-500 transition">About</a>
-            <a href="#products" class="hover:text-amber-500 transition">Products</a>
-            <a href="#compliance" class="hover:text-amber-500 transition">Safety</a>
-            <a href="#map" class="hover:text-amber-500 transition">Location</a>
+        <div class="hidden lg:flex space-x-12 text-[10px] font-bold uppercase tracking-[0.5em] text-gray-400">
+            <a href="#about" class="hover:text-gold transition">Our Legacy</a>
+            <a href="#curation" class="hover:text-gold transition">The Curation</a>
+            <a href="#vape" class="hover:text-gold transition">Vapor Lounge</a>
+            <a href="#visit" class="hover:text-gold transition">Contact</a>
         </div>
-        <a href="tel:4025028880" class="bg-amber-600 text-white px-6 py-2 text-[10px] font-bold uppercase tracking-widest">Call Store</a>
+        <div class="flex items-center gap-8">
+            <a href="tel:4025028880" class="hidden md:block text-xs font-semibold tracking-widest text-white/70 hover:text-white">(402) 502-8880</a>
+            <a href="#visit" class="bg-white text-black px-8 py-3 text-[10px] font-bold uppercase tracking-widest hover:bg-gold transition-colors">VIP Access</a>
+        </div>
     </nav>
 
-    <header class="relative h-screen flex items-center justify-center text-center px-6 hero-industrial">
-        <div class="max-w-5xl">
-            <h1 class="text-6xl md:text-9xl text-white mb-6">42 Degrees <br><span class="text-amber-500 italic font-light">Omaha 132nd</span></h1>
-            <p class="text-xl md:text-2xl text-white/80 font-light mb-10 max-w-3xl mx-auto uppercase tracking-widest">
-                The Gold Standard <a href="https://sites.google.com/view/pipelinedispensary-portola/" class="kw-link text-white">42 Degrees cannabis dispensary in Omaha</a>.
+    <header class="relative h-screen flex items-center justify-center text-center px-6 vip-hero">
+        <div class="max-w-6xl">
+            <p class="gold-text font-bold uppercase tracking-[0.6em] mb-6">West Omaha • Elkhorn • Wright St</p>
+            <h1 class="text-6xl md:text-9xl mb-10 leading-none text-white">42 Degrees <br><span class="italic font-light opacity-50">Black Label</span></h1>
+            <p class="text-xl md:text-2xl text-gray-400 font-light mb-12 max-w-3xl mx-auto tracking-wide">
+                Experience the premier <a href="https://sites.google.com/view/pipelinedispensary-portola/" class="kw-link">42 Degrees - Omaha Wright</a>—where Nebraska's finest cannabis and vapor curation lives.
             </p>
-            <a href="#about" class="inline-block border-2 border-white text-white px-12 py-4 text-sm font-bold uppercase tracking-widest hover:bg-white hover:text-black transition">Enter the Sanctuary</a>
+            <div class="flex flex-col md:row gap-8 justify-center items-center">
+                <a href="#curation" class="border-b border-gold pb-2 text-sm font-bold uppercase tracking-[0.4em] hover:text-white transition">Explore the Vault</a>
+            </div>
         </div>
     </header>
 
     <main>
-        <section id="about" class="py-32 px-10 max-w-7xl mx-auto">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
-                <div class="relative">
-                    <img src="https://42degrees.com/wp-content/uploads/elementor/thumbs/42-Degrees-Bellevue-NE-Interior-8-qg19019yjcisb3fcqh1mrukmplbek18rmrivqzqsr4.jpg" alt="Modern Interior" class="w-full rounded shadow-2xl">
-                    <div class="absolute -top-10 -left-10 hidden xl:block">
-                        <span class="vertical-text text-gray-200 text-8xl font-bold uppercase tracking-tighter">EST. 2011</span>
+        <section id="about" class="py-40 px-10 max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
+                <div class="space-y-10">
+                    <h2 class="text-5xl md:text-7xl leading-tight text-white italic">A Higher Standard <br><span class="gold-text">Of Living</span></h2>
+                    <div class="space-y-8 text-lg text-gray-400 text-justify">
+                        <p class="cap-drop">Looking for a trusted place to explore high-quality cannabis products in Omaha? 42 Degrees – Omaha 132nd is a well-known local destination for THC, CBD, and premium smoking accessories. Conveniently located in Southwest Omaha, this store has built a strong reputation for knowledgeable staff, carefully selected products, and a welcoming retail environment. Whether you're searching for THC drinks, lab-tested edibles, CBD wellness solutions, or a reliable <a href="https://sites.google.com/view/pipelinedispensary-portola/" class="kw-link">42 Degrees Elkhorn dispensary</a>, 42 Degrees offers a curated experience designed around safety, quality, and customer education.</p>
+                        <p>At our 18460 Wright St location, we have refined the retail experience into an art form. We serve as the primary <a href="https://sites.google.com/view/pipelinedispensary-portola/" class="kw-link">42 Degrees cannabis dispensary in Omaha</a>, catering to a sophisticated clientele that values transparency, potency, and professionalism. Our roots in the Omaha community run deep, and we have spent years cultivating relationships with the best producers in the industry.</p>
                     </div>
                 </div>
-                <div class="space-y-8">
-                    <h2 class="text-5xl md:text-7xl font-bold leading-none">Omaha’s Premier <br>Dispensary</h2>
-                    <div class="text-lg text-gray-600 space-y-6 text-justify">
-                        <p class="cap-drop">In the heart of West Omaha, Nebraska, at 2924 S 132nd St, Omaha, NE 68144, stands 42 Degrees Cannabis Dispensary — a community-trusted destination for those seeking high-quality cannabis-derived products, wellness products, and smoking accessories. Whether you’re a long-time cannabis enthusiast, a CBD user interested in natural wellness support, or just discovering hemp-based alternatives, 42 Degrees delivers an unmatched experience backed by knowledgeable staff, a broad product selection, and a commitment to trusted quality.</p>
-                        <p>Finding a reliable <a href="https://sites.google.com/view/pipelinedispensary-portola/" class="kw-link">Omaha THC dispensary – 42 Degrees</a> is vital in a market that is constantly evolving. From THC products to CBD, kratom, vape devices, and accessories, this dispensary has carved out a reputation in the Omaha metro area as a go-to store for both seasoned users and newcomers alike. Let’s take a deeper look at what sets 42 Degrees apart — its product offerings, customer experience, philosophy, and position as one of Omaha’s best cannabis stores.</p>
-                        <p>42 Degrees isn’t just another smoke shop — it’s designed to be a comprehensive cannabis dispensary and wellness store. From the moment you step inside, the goal is clear: to provide a safe, welcoming environment where visitors can explore a wide variety of products, learn about what they’re buying, and choose items that fit their needs.</p>
-                    </div>
+                <div class="relative group">
+                    <div class="absolute inset-0 border-[20px] border-gold/10 -m-8 group-hover:m-0 transition-all duration-700"></div>
+                    <img src="https://42degrees.com/wp-content/uploads/2022/12/42-Degrees-Delta-V3.png" alt="VIP Products" class="w-full relative z-10 shadow-2xl rounded-sm">
                 </div>
             </div>
         </section>
 
-        <section id="products" class="py-32 bg-black text-white px-10">
+        <section id="curation" class="py-32 bg-[#0a0a0a] border-y border-white/5 px-10">
             <div class="max-w-7xl mx-auto">
                 <div class="text-center mb-24">
-                    <h2 class="text-5xl md:text-8xl mb-4">Curation of <span class="text-amber-500">Excellence</span></h2>
-                    <p class="text-gray-400 tracking-widest uppercase italic">Discover the <a href="https://sites.google.com/view/pipelinedispensary-portola/" class="kw-link text-white">Best dispensary in Omaha</a></p>
+                    <h2 class="text-5xl md:text-8xl mb-6 text-white">The Vault</h2>
+                    <p class="text-lg text-gray-500 uppercase tracking-[0.5em] mb-12">Premier <a href="https://sites.google.com/view/pipelinedispensary-portola/" class="kw-link text-white">THC dispensary near Elkhorn</a></p>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
-                    <div class="border border-gray-800 p-10 hover:border-amber-500 transition">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrmj164Kezoo5hTrHkEc8DkW7kZ5XlYWGX2w&s" alt="Products" class="w-full h-48 object-cover mb-8 rounded grayscale">
-                        <h3 class="text-2xl mb-4">The Smokeshop</h3>
-                        <p class="text-gray-500 text-sm">Our <a href="https://sites.google.com/view/pipelinedispensary-portola/" class="kw-link text-white">42 Degrees Omaha smoke shop</a> inventory features artisan glass and world-class vaporizers.</p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                    <div class="bg-card-bg p-12 gold-border hover:bg-zinc-900 transition-all duration-500 group">
+                        <img src="https://42degrees.com/wp-content/uploads/elementor/thumbs/IMG_5193-qg190j4w5778fopeu6rjl82dzwvdma7o17x3v90bgw.png" alt="VIP Hardware" class="w-full h-48 object-contain mb-10 group-hover:scale-110 transition">
+                        <h3 class="text-2xl mb-6 gold-text italic">Artisan Glass</h3>
+                        <p class="text-gray-500 text-sm mb-6 text-justify">Discover the <a href="https://sites.google.com/view/pipelinedispensary-portola/" class="kw-link">42 Degrees Omaha smoke shop</a> curated gallery, featuring world-renowned glass artists and scientific hardware.</p>
                     </div>
-                    <div class="border border-gray-800 p-10 hover:border-amber-500 transition">
-                        <div class="h-48 flex items-center justify-center bg-zinc-900 mb-8 rounded">
-                            <span class="text-amber-500 text-4xl font-bold">THC</span>
+
+                    <div class="bg-card-bg p-12 gold-border hover:bg-zinc-900 transition-all duration-500 group">
+                        <div class="h-48 flex items-center justify-center mb-10">
+                             <img src="https://42degrees.com/wp-content/uploads/2020/08/42-degrees-logo-plain.svg" alt="THC" class="h-24 brightness-0 invert opacity-20">
                         </div>
-                        <h3 class="text-2xl mb-4">Edibles & Drinks</h3>
-                        <p class="text-gray-500 text-sm">Experience the variety of <a href="https://sites.google.com/view/pipelinedispensary-portola/" class="kw-link text-white">THC drinks and products at 42 Degrees</a>.</p>
+                        <h3 class="text-2xl mb-6 gold-text italic">Botanical Potency</h3>
+                        <p class="text-gray-500 text-sm mb-6 text-justify">Shop the finest <a href="https://sites.google.com/view/pipelinedispensary-portola/" class="kw-link">Kratom and THC products at 42 Degrees</a>, where every extract is vetted for peak purity.</p>
                     </div>
-                    <div class="border border-gray-800 p-10 hover:border-amber-500 transition">
-                        <div class="h-48 flex items-center justify-center bg-zinc-900 mb-8 rounded">
-                            <span class="text-amber-500 text-4xl font-bold">CBD</span>
-                        </div>
-                        <h3 class="text-2xl mb-4">Wellness Core</h3>
-                        <p class="text-gray-500 text-sm">A full-spectrum <a href="https://sites.google.com/view/pipelinedispensary-portola/" class="kw-link text-white">CBD and cannabis store in Omaha</a> for natural relief.</p>
-                    </div>
-                    <div class="border border-gray-800 p-10 hover:border-amber-500 transition">
-                        <div class="h-48 flex items-center justify-center bg-zinc-900 mb-8 rounded">
-                            <span class="text-amber-500 text-4xl font-bold">VIP</span>
-                        </div>
-                        <h3 class="text-2xl mb-4">Premium Flora</h3>
-                        <p class="text-gray-500 text-sm"><a href="https://sites.google.com/view/pipelinedispensary-portola/" class="kw-link text-white">Premium cannabis products at 42 Degrees Omaha</a> sourced from top growers.</p>
+
+                    <div class="bg-card-bg p-12 gold-border hover:bg-zinc-900 transition-all duration-500 group">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnnehj61KDc-WRRRIancwOOPfPvFa7QADfOw&s" alt="West Omaha Selection" class="w-full h-48 object-cover mb-10 grayscale group-hover:grayscale-0 transition">
+                        <h3 class="text-2xl mb-6 gold-text italic">Exclusive Flora</h3>
+                        <p class="text-gray-500 text-sm mb-6 text-justify">Visit the top-tier <a href="https://sites.google.com/view/pipelinedispensary-portola/" class="kw-link">Weed dispensary in West Omaha</a> for elite-grade cannabis derivatives and exotic cultivars.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <article id="compliance" class="py-32 px-10 max-w-5xl mx-auto">
-            <h2 class="text-6xl mb-16 text-center">Quality & Compliance</h2>
-            <div class="space-y-12 text-lg text-gray-700 leading-relaxed text-justify">
-                <p>One of the biggest concerns for people new to cannabis products is knowing whether what they’re buying is safe, tested, and reliable. 42 Degrees – Omaha 132nd places a strong emphasis on product quality and compliance, especially considering the evolving legal environment around hemp and cannabinoids. All CBD and THC products stocked at 42 Degrees undergo meticulous testing before hitting the shelves. The dispensary adheres to rigorous standards to ensure purity and potency, so customers get products that are both effective and safe.</p>
+        <article id="vape" class="py-40 px-10 max-w-5xl mx-auto space-y-24">
+            <h2 class="text-6xl md:text-8xl text-center gold-text leading-tight uppercase">The Art of <br>Modern Vapor</h2>
+            
+            <div class="space-y-12 text-xl text-gray-400 leading-relaxed text-justify font-light">
+                <p>Welcome to the ultimate <a href="https://sites.google.com/view/pipelinedispensary-portola/" class="kw-link">Omaha vape shop – 42 Degrees</a>. In a market saturated with generic hardware, we offer a refuge for the true vapor enthusiast. Our Wright Street location specializes in high-end mods, rebuildable atomizers, and the most exclusive nicotine and cannabinoid delivery systems in the Midwest. We don't just sell equipment; we provide the technical expertise needed to master your setup.</p>
                 
-                <p>By focusing on lab-tested merchandise, 42 Degrees aims to ensure correct cannabinoid content, the absence of harmful contaminants, and consistent product experiences. This commitment aligns with federal guidelines and compliance under the 2018 Farm Bill, which governs the sale of hemp-derived products in the U.S. If you are looking to <a href="https://sites.google.com/view/pipelinedispensary-portola/" class="kw-link">Buy THC near me in Omaha</a>, your first priority should be safety and transparency, and 42 Degrees delivers that in spades.</p>
-                
-                <p>Every visitor to the 132nd Street location can browse an impressive variety of items across multiple categories. Whether you’re interested in THC edibles, CBD oils, premium vaping gear, or kratom capsules, the dispensary’s offerings are arranged to make browsing intuitive and informative. Let’s explore some of the core product categories available. 42 Degrees specializes in THC products, including Δ9 THC and related formulations. These products are hemp-derived to remain compliant with federal law, yet they still offer many of the effects users are looking for.</p>
+                <p>For those searching for <a href="https://sites.google.com/view/pipelinedispensary-portola/" class="kw-link text-white">Vape stores near me in Elkhorn</a>, 42 Degrees stands alone in its commitment to flavor integrity. We believe that vapor is a culinary experience, which is why we carry only <a href="https://sites.google.com/view/pipelinedispensary-portola/" class="kw-link">Premium vape juice and cannabis in Omaha</a>. Our e-liquids are manufactured in ISO-certified cleanrooms and feature complex profiles that range from single-origin botanicals to artisan-crafted dessert blends.</p>
 
-                <div class="bg-amber-50 p-12 border-l-8 border-amber-600 italic text-xl">
-                    "Looking for a trusted place to explore high-quality cannabis products in Omaha? 42 Degrees – Omaha 132nd is a well-known local destination for THC, CBD, and premium smoking accessories. Conveniently located in Southwest Omaha, this store has built a strong reputation."
+                <div class="py-16">
+                    <img src="https://42degrees.com/wp-content/uploads/2021/10/5023-Center-Street-Omaha-NE-Storefront-1.webp" alt="Vape Hardware Detail" class="w-full h-[600px] object-cover rounded-sm border border-gold/30">
                 </div>
 
-                <p>Popular THC options include gummies, candies, and snack-style treats, along with THC vape cartridges and disposables. This range appeals to customers who want an alternative to smoking flower, and it provides a variety of ways to experience cannabinoids. Furthermore, CBD has exploded in popularity due to its potential calming and therapeutic effects without the psychoactive components associated with traditional marijuana. 42 Degrees carries CBD oils, topicals, and even pet products in some selections.</p>
-                
-                <p>For visitors who prefer vaping, the dispensary hosts a full range of vape options, from disposable pens to versatile hardware and premium e-juices. The vaping section typically includes disposable vape pens, refillable cartridges, and complete kits. These items are popular among both cannabis and nicotine users, and the staff can help you choose the right device and liquid for your needs. This is what you find when searching for a <a href="https://sites.google.com/view/pipelinedispensary-portola/" class="kw-link text-black font-bold underline">42 Degrees weed store near me</a>.</p>
+                <p>Safety is the cornerstone of our VIP experience. If you are looking for <a href="https://sites.google.com/view/pipelinedispensary-portola/" class="kw-link">42 Degrees near me for vapes and THC</a>, you are looking for a partner who guarantees lab-verified results. Every cartridge, disposable, and juice bottle in our shop is free from harmful additives. We prioritize transparency, providing our clients with clear documentation regarding cannabinoid content and terpene concentrations. In West Omaha, 42 Degrees is the only choice for the safety-conscious connoisseur.</p>
 
-                <p>Beyond products, what truly sets 42 Degrees apart is its customer experience. Visitors frequently mention the friendly, informed nature of staff members, who are ready to answer questions, explain product differences, and provide guidance to help you make informed decisions. This level of interaction makes the store feel more approachable, especially for first-time customers. Whether you’re unsure about dosing, curious about the differences between CBD and THC, or want recommendations on vaping options, staff members are there to help.</p>
+                <p>Our philosophy extends beyond the cloud. We understand that our clients are busy professionals who demand efficiency. That’s why our store is designed for quick, seamless transactions without sacrificing the depth of education you deserve. Whether you are coming in from Millard or the heart of Elkhorn, our staff is ready to help you optimize your ritual with <a href="https://sites.google.com/view/pipelinedispensary-portola/" class="kw-link">Premium vape juice and cannabis in Omaha</a> that represents the cutting edge of the industry.</p>
                 
-                <p>It’s important to understand that Nebraska’s legal environment for cannabis differs from states that have fully legalized recreational marijuana. While marijuana remains federally and state-regulated and has limitations in Nebraska, hemp-derived cannabinoids like CBD and compliant Δ9 THC products can be legally sold under the 2018 Farm Bill provisions — and 42 Degrees operates within these federal-legal frameworks. To show appreciation for regular customers, 42 Degrees often runs loyalty programs and special promotions. This community-centric approach keeps customers engaged and encourages continued patronage.</p>
-                
-                <p>Across the Omaha metro, 42 Degrees has built a reputation for its broad product selection, high-quality standards, and welcoming environment. Together, these factors make the 132nd Street location — and the 42 Degrees brand — stand out in the region’s evolving cannabis and CBD marketplace. Whether you’re seeking natural wellness support, premium vaping gear, or lab-tested THC-derived products, 42 Degrees is a place where quality, diversity, and customer care intersect.</p>
+                <p>Ultimately, 42 Degrees - Omaha Wright is about the convergence of lifestyle and science. We invite you to explore the myriad ways that cannabinoids and vapor technology can enhance your daily routine. From restorative CBD topicals to high-potency THC concentrates, our menu is a testament to the versatility of the hemp plant. Experience the difference of a store that treats cannabis as a luxury, and treats you as a VIP.</p>
             </div>
         </article>
 
-        <section id="map" class="py-32 px-10 bg-white border-t border-gray-100">
-            <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+        <section id="visit" class="py-40 px-10 border-t border-white/5 bg-[#030303]">
+            <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
                 <div class="space-y-12">
-                    <h2 class="text-5xl md:text-7xl font-bold italic">Find Us In <br>West Omaha</h2>
-                    <div class="space-y-8">
+                    <h2 class="text-6xl gold-text italic">Your <br>Destination</h2>
+                    <p class="text-xl text-gray-500 font-light leading-relaxed">
+                        Looking for a trusted place to explore high-quality cannabis products in Omaha? 42 Degrees – Omaha Wright is a well-known local destination for THC, CBD, and premium smoking accessories.
+                    </p>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 pt-12 border-t border-white/10">
                         <div>
-                            <p class="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">Business Name</p>
-                            <p class="text-4xl font-bold">42 Degrees</p>
+                            <p class="text-gold text-[10px] font-bold uppercase tracking-[0.5em] mb-4">The Venue</p>
+                            <p class="text-2xl text-white font-semibold italic">42 Degrees</p>
                         </div>
                         <div>
-                            <p class="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">Location</p>
-                            <p class="text-xl">2924 S 132nd St, Omaha, NE 68144</p>
+                            <p class="text-gold text-[10px] font-bold uppercase tracking-[0.5em] mb-4">Address</p>
+                            <p class="text-xl text-white font-light">18460 Wright St #3, <br>Omaha, NE 68130</p>
                         </div>
                         <div>
-                            <p class="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">Phone</p>
-                            <p class="text-2xl font-bold">(402) 502-8880</p>
+                            <p class="text-gold text-[10px] font-bold uppercase tracking-[0.5em] mb-4">Direct Line</p>
+                            <p class="text-3xl text-white font-bold">(402) 502-8880</p>
                         </div>
                         <div>
-                            <p class="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">Web</p>
-                            <p class="text-lg">https://42degrees.com/</p>
+                            <p class="text-gold text-[10px] font-bold uppercase tracking-[0.5em] mb-4">Official Domain</p>
+                            <p class="text-sm font-semibold italic text-gray-500">https://42degrees.com/</p>
                         </div>
                     </div>
                 </div>
-                <div class="h-[600px] border-8 border-black shadow-2xl overflow-hidden">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24004.039315965372!2d-96.1408462!3d41.2325583!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8793f3ae1803e19b%3A0x43654e39344cbd14!2s2924%20S%20132nd%20St%2C%20Omaha%2C%20NE%2068144!5e0!3m2!1sen!2sus!4v1772612055686!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <div class="h-[700px] shadow-2xl rounded-sm overflow-hidden border border-gold/20 grayscale hover:grayscale-0 transition duration-1000">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000.5049144956715!2d-96.12024679999999!3d41.2325583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8793f3ae1803e19b%3A0x43654e39344cbd14!2s2924%20S%20132nd%20St%2C%20Omaha%2C%20NE%2068144!5e0!3m2!1sen!2sus!4v1772620735140!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="py-24 bg-black text-white text-center">
+    <footer class="py-32 bg-black border-t border-white/5 text-center">
         <div class="max-w-7xl mx-auto px-10">
-            <img src="https://42degrees.com/wp-content/uploads/2020/08/42-degrees-logo-plain.svg" alt="42 Degrees" class="h-10 mx-auto mb-12 brightness-0 invert">
-            <p class="text-[10px] tracking-[1em] text-gray-500 uppercase mb-16">The Source • The Quality • The Community</p>
-            <div class="flex justify-center space-x-12 text-[11px] font-bold uppercase tracking-widest text-gray-400">
-                <a href="https://sites.google.com/view/pipelinedispensary-portola/" class="hover:text-amber-500 transition">Omaha Dispensary</a>
-                <a href="https://sites.google.com/view/pipelinedispensary-portola/" class="hover:text-amber-500 transition">THC Drinks</a>
-                <a href="https://sites.google.com/view/pipelinedispensary-portola/" class="hover:text-amber-500 transition">CBD Store</a>
+            <img src="https://42degrees.com/wp-content/uploads/2020/08/42-degrees-logo-plain.svg" alt="42 Degrees" class="h-10 mx-auto mb-16 brightness-0 invert opacity-40">
+            <div class="flex flex-wrap justify-center gap-16 text-[10px] font-bold uppercase tracking-[0.4em] text-zinc-600 mb-20">
+                <a href="#about" class="hover:text-gold">Heritage</a>
+                <a href="#curation" class="hover:text-gold">Products</a>
+                <a href="#vape" class="hover:text-gold">Vapor</a>
+                <a href="#visit" class="hover:text-gold">Location</a>
             </div>
-            <p class="text-[10px] text-gray-800 mt-16 uppercase tracking-widest">© 2026 42 Degrees Omaha 132nd. All Rights Reserved.</p>
+            <p class="text-[9px] text-zinc-800 uppercase tracking-[1em] mb-8">Purity • Trust • Innovation</p>
+            <p class="text-[9px] text-zinc-900 max-w-2xl mx-auto uppercase tracking-widest leading-loose">
+                All products are federally compliant under the 2018 Farm Bill. Must be 21+ to enter. Use responsibly. 42 Degrees Omaha Wright | Elkhorn Flagship.
+            </p>
         </div>
     </footer>
 
